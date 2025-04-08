@@ -24,10 +24,10 @@ export const config: {
   filesMerge: Record<string, string>;
 } = {
   dependencies: [
-    '@google/clasp',
+    '@eslint/js',
+    '@google/clasp@^2.5.0',
     '@types/google-apps-script',
     '@types/jest',
-    '@typescript-eslint/eslint-plugin',
     'eslint',
     'eslint-config-prettier',
     'eslint-plugin-prettier',
@@ -44,6 +44,7 @@ export const config: {
     'rollup-plugin-typescript2',
     'ts-jest',
     'typescript',
+    'typescript-eslint'
   ],
   scripts: {
     'clean': 'rimraf build dist',
@@ -86,10 +87,10 @@ export const configForUi: {
 } = {
   dependencies: [
     '@angular/cli',
-    '@google/clasp',
+    '@eslint/js',
+    '@google/clasp@^2.5.0',
     '@types/google-apps-script',
     '@types/jest',
-    '@typescript-eslint/eslint-plugin',
     'eslint',
     'eslint-config-prettier',
     'eslint-plugin-prettier',
@@ -108,6 +109,7 @@ export const configForUi: {
     'rollup-plugin-typescript2',
     'ts-jest',
     'typescript',
+    'typescript-eslint'
   ],
   scripts: {
     'preinstall':
